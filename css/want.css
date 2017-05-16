@@ -1,0 +1,100 @@
+.banner .publish{
+	background-color:rgb(235,80,85);
+}
+.container .container-title{
+	width:80%;
+	margin: 0 auto;
+	background:url(../images/want-title.png) no-repeat;
+	background-size: 100% 30px;
+}
+.wantgoods{
+	width:90%;
+	height: 125px;
+	margin:20px auto;
+	background-color:#FFF;
+	border-top: 1px solid rgb(62,177,150);
+}
+.wantuser{
+	width:14%;
+	height:125px;
+	float:left;
+}
+.goodsinfor{
+	width:86%;
+	height:125px;
+	float:left;
+}
+.wantuserimg{
+	width:52px;
+	height:52px;
+	border-radius:26px;
+	overflow:hidden;
+	margin:13px 20px;
+}
+.wantuserimg img{
+	width:52px;
+	height:52px;
+}
+.goodsinfor .goodsname{
+	margin-top:10px;
+	font-size: 14px;
+	color:#1B816C;
+}
+.goodsinfor .goodsdepict{
+	margin-top:14px;
+	font-size:14px;
+	color:#666;
+	margin-bottom:7px;
+}
+.goodsdd{
+	margin-right:13px;
+	font-size:12px;
+	color: #858d8e;
+}
+.pubtime{
+	font-size:12px;
+	color: #858d8e;
+}
+.goodsjg{
+	font-size:16px;
+	color:#ED4E51;
+	margin-right:13px;
+}
+.tit{
+	font-size:12px;
+	color: #858d8e;
+}
+.infor{
+	margin-bottom:5px;
+}
+.nick{
+	margin-right:10px;
+	font-size:14px;
+	color: #858d8e;
+}
+.total{
+	display: inline-block;
+}
+.contact{
+	display: inline-block;
+	width:55px;
+	height:19px;
+	background: url(../images/want_contact.png) no-repeat 0px 5px;
+	background-size:55px 37px;
+	cursor: pointer;
+	margin-right:10px;
+}
+.contact:hover{
+	background: url(../images/want_contact.png) no-repeat 0px -18px;
+	background-size:55px 37px;
+}
+.phone{
+	margin-right:4px;
+	color:rgb(62,177,150);
+}
+.qq{
+	color:rgb(62,177,150);
+}
+.total .con{
+	display:none;
+}

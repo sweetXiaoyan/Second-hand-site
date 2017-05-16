@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>高校二手交易平台</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/AjaxTool.js"></script>
+    <script src="js/dataChangeTool.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+<!-----------------------头部内容-------------------------->
+<div class="header" id="header">
+    <div class="top">
+        <div class="topInner">
+            <div class="topLeft">
+                <h2>辽宁工业大学</h2>
+                <span>[<a href="address-list.php" class="addressCheck">切换学校</a>]</span>
+            </div>
+            <div class="topRight">
+                <div class="connection">
+                    <a href="#">我的收藏</a>
+                </div>
+                <div class="login">
+                    <a href="login.php" target="_self">登录</a>
+                    <span>|</span>
+                    <a href="#">注册</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----banner 和nav------>
+    <div class="banner">
+        <div class="nav">
+            <div class="logoImage">
+                <img src="images/logo.png">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="home"><a href="">首页</a></li>
+                    <li class="m-app"><a href="">手机二手</a></li>
+                    <li><a href="">二手车估价</a></li>
+                    <li class="m-auction"><a href="">降降降</a></li>
+                </ul>
+                <ul class="used">
+                    <li><a href="">发布闲置</a></li>
+                    <li>
+                        <a href="">我的闲置</a>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="search">
+                <input type="text" class="searchInput">
+                <input type="button" class="searchBtn" value="搜索">
+            </div>
+        </div>
+        <!------banner 包含 商品列表| 轮播图 | 广告-->
+        <div class="navContent">
+            <!--商品列表-->
+            <div class="leftGoodList">
+                <ul class="goodList">
+                    <li class="listItem">
+                        <div class="mainItems">
+                            <span class="productIcon"></span>
+                            <a href="#">闲置数码</a>
+                            <span class="mainLink">
+                                <a href="#">手机</a>
+                                <a href="#">相机</a>
+                                <a href="#">笔记本</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="listItem">
+                        <div class="mainItems">
+                            <span class="productIcon"></span>
+                            <a href="#">闲置日用</a>
+                            <span class="mainLink">
+                                <a href="#">暖壶</a>
+                                <a href="#">吹风机</a>
+                                <a href="#">盆</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="listItem">
+                        <div class="mainItems">
+                            <span class="productIcon"></span>
+                            <a href="#">安全零食</a>
+                            <span class="mainLink">
+                                <a href="#">矿泉水</a>
+                                <a href="#">辣条</a>
+                                <a href="#">面包</a>
+                                <a href="#">牛奶</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="listItem">
+                        <div class="mainItems">
+                            <span class="productIcon"></span>
+                            <a href="#">闲置出行工具</a>
+                            <span class="mainLink">
+                                <a href="#">自行车</a>
+                                <a href="#">电动车</a>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="listItem">
+                        <div class="mainItems">
+                            <span class="productIcon"></span>
+                            <a href="#">闲置学习用品</a>
+                            <span class="mainLink">
+                                <a href="#">书本</a>
+                                <a href="#">笔</a>
+                                <a href="#">书包</a>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+            <!--轮播图-->
+            <div class="middleContent">
+                <div class="slideShow">
+                    <div class="box">
+                        <img src="images/banners/1.jpg" alt="">
+                    </div>
+                    <div class="switch">
+                        <span class="rightSpan"> &lt;</span>
+                        <span class="leftSpan"> &gt;</span>
+                    </div>
+                </div>
+            </div>
+            <!--广告-->
+            <div class="rightAd">
+                <div class="expectBtn">
+                    <span class="publishBtn"><p>发布闲置</p>闲置换钱，快速出手</span><span class="resellBtn"><p>我要转卖</p>帮别人转卖，赚闲钱</span>
+                </div>
+                <div class="expectAd">
+                    <img src="" alt="" title="期待开发手机端的宣传广告">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----认证信息展示----->
+    <div class="publicity">
+        <ul>
+            <li><img src="images/personIcon.png" alt=""><span>真实身份 学校认证认证</span></li>
+            <li><img src="images/xiaolian.png" alt=""><span>专业服务 专业保障</span></li>
+            <li><img src="images/renzheng.png" alt=""><span>担保交易 安全靠谱</span></li>
+            <li><img src="images/weixin.png" alt=""><span>微信好友 趣味互动</span></li>
+        </ul>
+    </div>
+</div>
+<!-----------------------中部所有内容---------------------->
+<div class="contentBox">
+    <div class="content">
+        <div class="classify-hot">
+            <div class="hot-one left">
+                <div class="H-logo">
+                    <img src="images/H-logo.png">
+                    <p>个人手机销售商</p>
+                </div>
+                <ul class="H-ul">
+                    <li><img src="images/H-icon1.png" alt="">
+                        <p>180天质保</p>
+                    </li>
+                    <li><img src="images/H-icon2.png" alt="">
+                        <p>180天质保</p>
+                    </li>
+                    <li><img src="images/H-icon3.png" alt="">
+                        <p>180天质保</p>
+                    </li>
+                </ul>
+                <div class="H-bottom">
+                    <img src="images/H-phoneImage.png" alt="">
+                </div>
+            </div>
+            <div class="hot-Two left" >
+                <div class="H-item left">
+                    <div class="H-title">
+                        <h2>iPhone 6</h2>
+                        <p>&#65509; 3960起</p>
+                        <span>已售出3件</span>
+                    </div>
+                    <div class="itemImg">
+                        <a href="#">
+                            <img src="images/h-phone1.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="H-item left">
+                    <div class="H-title">
+                        <h2>iPhone 6</h2>
+                        <p>&#65509; 3960起</p>
+                        <span>已售出3件</span>
+                    </div>
+                    <div class="itemImg">
+                        <a href="#">
+                            <img src="images/h-phone2.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="H-item left">
+                    <div class="H-title">
+                        <h2>iPhone 6</h2>
+                        <p>&#65509; 3960起</p>
+                        <span>已售出3件</span>
+                    </div>
+                    <div class="itemImg">
+                        <a href="#">
+                            <img src="images/h-phone3.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------商品分类----->
+        <div class="classify-list">
+            <h2>校园商品分类</h2>
+            <ul>
+                <li><a href="#">台式电脑</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">平板电脑</a></li>
+                <li><a href="#">手机</a></li>
+                <li><a href="#">数码产品</a></li>
+                <li><a href="#">滑板</a></li>
+                <li><a href="#">插排电器</a></li>
+                <li><a href="#">服装衣帽</a></li>
+                <li><a href="#">美容保健</a></li>
+                <li><a href="#">学习资料</a></li>
+                <li><a href="#">自行车</a></li>
+                <li><a href="#">学习工具</a></li>
+                <li><a href="#">耳机</a></li>
+                <li><a href="#">体育用具</a></li>
+                <li><a href="#">暖水壶</a></li>
+                <li><a href="#">清洁用具</a></li>
+            </ul>
+        </div>
+        <div class="product-One">
+            <div class="list-nav">
+                <div class="left">
+                    <img src="images/shoujiIcon.png" alt="">
+                    <span>手机数码</span>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">手机</a></li>
+                        <li><a href="#">电脑配件</a></li>
+                        <li><a href="#">笔记本</a></li>
+                        <li><a href="#">平板电脑</a></li>
+                        <li><a href="#">台式几</a></li>
+                        <li><a href="#">数码产品</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-content">
+                <ul>
+                    <li>
+                        <img src="images/pro01.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro02.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro03.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro04.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro05.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-One">
+            <div class="list-nav">
+                <div class="left">
+                    <img src="images/shoujiIcon.png" alt="">
+                    <span>手机数码</span>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">手机</a></li>
+                        <li><a href="#">电脑配件</a></li>
+                        <li><a href="#">笔记本</a></li>
+                        <li><a href="#">平板电脑</a></li>
+                        <li><a href="#">台式几</a></li>
+                        <li><a href="#">数码产品</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-content">
+                <ul>
+                    <li>
+                        <img src="images/pro01.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro02.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro03.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro04.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro05.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="product-One">
+            <div class="list-nav">
+                <div class="left">
+                    <img src="images/shoujiIcon.png" alt="">
+                    <span>手机数码</span>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">手机</a></li>
+                        <li><a href="#">电脑配件</a></li>
+                        <li><a href="#">笔记本</a></li>
+                        <li><a href="#">平板电脑</a></li>
+                        <li><a href="#">台式几</a></li>
+                        <li><a href="#">数码产品</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pro-content">
+                <ul>
+                    <li>
+                        <img src="images/pro01.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro02.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro03.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro04.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                    <li>
+                        <img src="images/pro05.png" alt="">
+                        <p>
+                            <a href=""><span>转转</span>魅族mx3 16g 联通3移动2</a>
+                        </p>
+                        <div class="users">
+                            <span></span>亚平宁之鹰
+                        </div>
+                        <p class="price">&#65509;650</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer"></div>
+<script>
+    var coolie = document.cookie.split(";")[0];
+    var cookieArr = coolie.split("=");
+    if (cookieArr.length ==2){
+        if (cookieArr[0] ==='address'){
+            $('.topLeft>span .addressCheck').html(cookieArr[1]);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+.main{
+	height:802px;
+}
+.sidebar{
+	height:960px;
+}
+.main .banner{
+	height:830px;
+}
+.main .container{
+	width: 51%;
+	margin-left: 24.5%;
+	height: 780px;
+}
+.container .container-title{
+	height:90px;
+	width:100%;
+	background:url(../images/fubushangping.png) center 0 no-repeat;
+	background-size: 128px 90px;
+}
+.container .container-main{
+	width:100%;
+	height:675px;
+	background-color: #FFF;
+	margin-top:15px;
+}
+.container-main .goods-img{
+	position:relative;
+	width:100%;
+	height:155px;
+	background-color:rgb(246,249,249);
+	overflow:hidden;//如果不加这一句,file-img的mt会导致父子一起向下移动
+}
+.goods-img .bk{
+	width:114px;
+	height:114px;
+	margin:20px auto;
+	border-radius:57px;
+	overflow:hidden;
+	background:-moz-linear-gradient(top,#3EB196,#FFB200);
+}
+.goods-img .bk:hover{
+	background:-moz-linear-gradient(top,#FFB200,#3EB196);
+}
+ .flie-img{
+	width:110px;
+	height:110px;
+	border-radius: 55px;
+	background:url(../images/can1.png) center -93px no-repeat;
+	background-size:80px 200px;
+	margin:2px auto;
+	background-color:#FFF;
+	overflow:hidden;
+}
+.flie-img:hover{
+	background:url(../images/can1.png) center 4.5px no-repeat;
+	background-size:80px 200px;
+	background-color:#FFF;
+}
+.flie-img input{
+	display:block;
+	opacity: 0;
+	width:100%;
+	height:100%;
+}
+.preview{
+	float: left;
+	width:115px;
+	height:115px;
+	margin-top:20px;
+	margin-left:20px;
+	box-shadow: 0px 0px 3px #A18F8F;
+	position: relative;
+	background-color:#FFF;
+}
+.preview div{
+	width:100px;
+	height:100px;
+	margin:7px;
+}
+.preview div img{
+	width:100%;
+	height:100%;
+}
+.preview span{
+	width:14px;
+	height:14px;
+	background:url(../images/close.png) no-repeat center -38.3px;
+	background-size:36px 63px;
+	border-radius:7px;
+	position:absolute;
+	top:-5px;
+	left:105px;
+}
+.preview span:hover{
+	background:url(../images/close.png) no-repeat center -11.3px;
+	background-size:36px 63px;
+}
+.file{
+	display:none;
+	width:115px;
+	height:115px;
+	margin-top:20px;
+	margin-left:20px;
+	display: inline-block;
+	background:url(../images/add_photo.png) no-repeat center -148px;
+	background-size:156px 285px;
+}
+.file:hover{
+	background:url(../images/add_photo.png) no-repeat center -10px;
+	background-size:156px 285px;
+}
+.file input{
+	display:block;
+	width:100%;
+	height:100%;
+	opacity:0;
+}
+.prompt{
+	display:none;
+	text-align: center;
+	position:absolute;
+	width:100%;
+	height:15px;
+	top:137px;
+	font-size:9px;
+	color:#9C9595;
+}
+.container-main form{
+	width:100%;
+}
+.goods-infor{
+	margin-left:125px;
+}
+form label{
+	display:inline-block;
+	margin-right:13px;
+	color:rgb(68,68,68);
+	font-size: 11px;
+	margin-top:10px;
+}
+#goodsName,#goodsDepict,#price,#loco,#qq,#phone{
+	border-radius:6px;
+	background-color:rgb(246,249,249);
+	border:1px solid #D7D1D1;
+	color:rgb(68,68,68);
+	font-size:12px;
+	padding-left:5px;
+}
+#goodsName:focus,#goodsDepict:focus,#price:focus,#loco:focus,#qq:focus,#phone:focus{
+	background-color:inherit;
+	border:1px solid rgb(62,177,150);
+}
+form #goodsName{
+	height: 28px;
+	width: 335px;
+	margin-top:30px;
+}
+form #goodsDepict{
+	height:56px;
+	width:335px;
+	margin-top:12px;
+	overflow:auto;
+	line-height:14px;
+    resize: none;
+}
+form #price{
+	height:28px;
+	width:170px;
+	margin-top:17px;
+}
+form #loco{
+	height:28px;
+	width: 335px;
+	margin-top:12px;
+}
+form hr{
+	color:#D7D1D1;
+	margin-top:5px;
+}
+form #phone,form #qq{
+	height:28px;
+	width:170px;
+	margin-top:12px;
+}
+form #submit-publish{
+	width: 155px;
+	height:30px;
+	border:0;
+	border-radius:14px;
+	background-color: rgb(235,80,85);
+	font-family:"宋体";
+	font-weight:bold;
+	color:#FFF;
+	font-size:15px;
+	margin-left:60px;
+	margin-top:18px;
+}
+form #submit-publish:hover{
+	background-color:rgba(62,177,150,0.8);
+}

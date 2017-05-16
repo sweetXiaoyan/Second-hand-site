@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天室</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .box {
+            width: 320px;
+            height: 568px;
+            border: 1px solid lightgray;
+            margin:50px auto;
+        }
+        .top {
+            width: 100%;
+            height: 40px;
+            border-bottom: 1px solid lightgray;
+        }
+        .top span {
+            line-height: 44px;
+            font-size: 18px;
+        }
+        .content {
+            width: 100%;
+            height: 480px;
+            border-bottom: 1px solid lightgray;
+            overflow: auto;
+        }
+        .content ul {
+            padding: 10px;
+        }
+        .content ul li {
+            margin-top: 10px;
+            /*color: darkgray;*/
+            color: blue;
+
+        }
+        .content .left {
+            width: 100%;
+            text-align: left;
+        }
+        .content .right {
+            width: 100%;
+            margin-right: 100px;
+            text-align: right;
+        }
+        .bottom {
+            width: 100%;
+            height: 44px;
+        }
+        .bottom input {
+            box-sizing: border-box;
+        }
+        .bottom input[type=text] {
+            width: 70%;
+            height: 44px;
+            font-size: 18px;
+            color: black;
+        }
+        .bottom input[type=submit] {
+            width: 28%;
+            height: 44px;
+            font-size: 18px;
+            background: white;
+            border: 1px solid orangered;
+        }
+    </style>
+
+    <script src="js/AjaxTool.js"></script>
+    <script>
+        window.onload = function () {
+            var btn = document.getElementById('submit');
+            var textInput = document.getElementById('text');
+            var ulTag = document.getElementsByTagName('ul')[0];
+
+            btn.onclick = function () {
+                // 传递数据给服务器
+                var text = textInput.value;
+
+                var content = {
+                    'text': text,
+                    'from': '123',
+                    'to': 'abc',
+                    'type':'save'
+                };
+                var param = {
+                    'type': 'get',
+                    'url':'php/chatServer.php',
+                    'data':content
+                };
+
+                requestForData(param);
+
+
+                textInput.value = '';
+                textInput.focus();
+            }
+
+
+            function creteLiTagByText(text,cla) {
+                var liTag = document.createElement('li');
+                liTag.innerHTML = text;
+                liTag.className = cla;
+                return liTag;
+            }
+
+            function requestForData(param) {
+                AjaxTool.requestData(param,function (xhr) {
+                    var content = xhr.responseText;
+                    console.log(content);
+                    var objs = JSON.parse(content);
+
+                    ulTag.innerHTML = '';
+                    for(var i=0; i<objs.length; i++){
+                        var obj = objs[i];
+                        if(obj['from'] == '123'){
+                            var liTag = creteLiTagByText(obj['text'],'right');
+                            ulTag.append(liTag);
+
+                        } else if(obj['to'] == '123'){
+                            var liTag = creteLiTagByText(obj['text'],'left');
+                            liTag.style.color = "red";
+                            ulTag.append(liTag);
+                        }
+                    }
+                    /*滚动条保持在底部*/
+                    var contentBox = document.querySelector(".content");
+                    contentBox.scrollTop = contentBox.scrollHeight;
+
+                },function () {
+
+                });
+            }
+
+
+
+            var contentGet = {
+                'text': '',
+                'from': '123',
+                'to': 'abc',
+                'type': 'get'
+            };
+            var paramGet = {
+                'type': 'get',
+                'url':'php/chatServer.php',
+                'data':contentGet
+            };
+            // 不断的发送请求， 从服务器获取最新聊天数据
+            setInterval(function () {
+                requestForData(paramGet);
+            }, 2000);
+        }
+    </script>
+</head>
+<body>
+
+
+<div class="box">
+    <div class="top">
+        <span>聊天室-123</span>
+    </div>
+    <div class="content">
+        <ul>
+            <!--<li class="left">左边的内容</li>
+            <li class="right">右边的内容</li>-->
+        </ul>
+    </div>
+    <div class="bottom">
+        <input type="text" name="content" placeholder="请输入内容" id="text">
+        <input type="submit" value="发送" id="submit">
+    </div>
+
+</div>
+
+
+
+</body>
+</html>

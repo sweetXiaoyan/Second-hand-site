@@ -1,0 +1,271 @@
+/*------登录的蒙版上的内容-----*/
+#login-mask{
+	width: 100%;
+	height: 1000px;
+	background-color: #0f0f0f;
+	opacity: .5;
+	z-index: 999;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.main{
+    width: 100%;
+	height:1000px;
+    background-color: rgb(227, 238, 236);
+}
+.container-title{
+	border: none;
+}
+.sidebar{
+	height:628px;
+}
+.main .banner{
+	height:490px;
+}
+.main .container{
+	width: 1300px;
+	height: 1000px;
+    /*background-color: red;*/
+    margin-left: 156px;
+    margin-top: 20px;
+    border-top: 2px solid #000000;
+}
+.container-main{
+	margin: 0 auto;
+	width:100%;
+	background-color: #fcf1f5;
+	height: 500px;
+}
+.GoodsImage{
+	width:600px;
+	height:400px;
+	float:left;
+	/*设置背景渐变*/
+	background: linear-gradient(to right,
+	rgba(255, 187, 51, 0.18) 50%, rgba(85, 136, 170, 0.36) 0);
+	/*线性渐变的宽度*/
+	background-size:15px 100%;
+	text-align: center;
+	padding: 30px 0px;
+}
+.GoodsImage img{
+	width:60%;
+	max-height: 400px;
+
+}
+.GoodsInfor{
+	width:700px;
+	height:400px;
+	float:left;
+	color: #333;
+}
+.GoodsInfortit{
+	width:250px;
+	height:99px;
+	border-bottom:1px dotted #A9A5A5;
+	border:1px solid #FFF;
+}
+.GoodsInfortit p{
+	margin-top:15px;
+	margin-left:20px;
+	color: rgb(235,80,85);
+	font-size: 18px;
+}
+.GoodsInfortit span{
+	display: inline-block;
+	margin-top:15px;
+	margin-left:20px;
+	height:30px;
+	line-height: 30px;
+    float:left;
+}
+.price{
+	color:rgb(235,80,85);
+	font-size:25px;
+}
+.jj{
+	color:#7B7272;
+	font-size:12px;
+
+}
+.GoodsInformain{
+	width:108px;
+	height:300px;
+	float:left;
+}
+.GoodsInformain sapn{
+	display:block;
+	/*background-color:rgb(75,192,165);*/
+	margin-top:10px;
+	height:30px;
+	margin-left:20px;
+	line-height:20px;
+	text-align:left;
+	margin-right: 10px;
+}
+.Informain{
+	width:300px;
+	height:300px;
+	float:left;
+	text-align:left;
+}
+.Informain sapn{
+	display:block;
+	margin-top:10px;
+	height:30px;
+	margin-left:10px;
+	line-height:20px;
+	text-align:left;
+}
+@font-face {
+	font-family: "myFontIcon";
+	src:url('../fonts/icomoon.eot') format('embedded-opentype'),
+	url("../fonts/icomoon.svg") format("svg"),
+	url("../fonts/icomoon.ttf") format("truetype"),
+	url("../fonts/icomoon.woff") format("woff");
+}
+/*----匹配使用icon-开头的----*/
+[class^="icon-"],
+[class*=" icon-"]{
+	font-family: myFontIcon;
+}
+.GoodsInformain sapn .icon-heart:before{
+	content: "\e9da";
+	font-size: 16px;
+	color: #777;
+	cursor: pointer;
+	vertical-align: middle;
+	font-style: normal;
+	margin-left: 6px;
+
+}
+
+.GoodsInfor .GoodsInformain sapn .icon-hearted:before{
+	content: "\e9da";
+	font-size: 16px;
+	color: #e63a3a;
+	cursor: pointer;
+	vertical-align: middle;
+	font-style: normal;
+	margin-left: 6px;
+
+}
+.Informain .icon-github:before{
+	margin-left: 6px;
+	content: "\eab0";
+    font-size: 18px;
+    color: #777;
+    cursor: pointer;
+    vertical-align: middle;
+	font-style: normal;
+}
+.Informain>sapn .icon-githubed:before{
+	margin-left: 6px;
+	content: "\eab0";
+	font-size: 18px;
+	color: #e63a3a;
+	cursor: pointer;
+	vertical-align: middle;
+	font-style: normal;
+}
+.Informain .goods-chat{
+	width: 110px;
+	height: 30px;
+	background-color: rgba(235,80,85,0.8);
+	border-radius: 4px;
+	padding: 4px;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.Informain .icon-chat:before{
+	margin-right: 6px;
+	content: "\e96d";
+	font-size: 16px;
+	color: #777;
+	vertical-align: middle;
+	font-style: normal;
+}
+
+/*-------tab切换-------*/
+.container .goods-tab{
+
+}
+.container .goods-tab>ul{
+	list-style: none;
+	height: 42px;
+	margin-bottom: 20px;
+	border-bottom: 4px solid rgb(235,80,85);
+}
+.container .goods-tab>ul li{
+	width: 140px;
+	height: 42px;
+	border: 1px solid #7c7c7c;
+	border-bottom: none;
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 2px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.container .goods-tab>ul .active{
+	border:none;
+	background-color: rgb(235,80,85);
+	color: #e6e6e6;
+}
+.goods-tab> .tab-cut{
+	height: 100%;
+
+}
+.goods-tab> .tab-cut .goods-tips>span{
+	color: #1b6d85;
+}
+
+/*----买家提问区----*/
+.goods-ask{
+	display: none;
+	position: relative;
+	/*background-color: green;*/
+}
+.goods-ask  .ask-content{
+	width:100%;
+}
+.goods-ask  .ask-content>p{
+	padding: 10px 0px;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #1B816C;
+	color: #535353;
+}
+.goods-ask  .ask-content>p>span{
+	float: right;
+	font-size: 12px;
+	color: #3EB196;
+}
+.goods-ask > .ask-submit {
+	position: absolute;
+	bottom: -60px;
+	right: 10px;
+}
+.goods-ask > .ask-submit >input{
+	text-indent: 12px;
+	width: 800px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+}
+.goods-ask > .ask-submit > .ask-btn{
+	width: 100px;
+	height: 40px;
+	border-radius: 6px;
+	border: none;
+	background-color: rgb(235,80,85);
+	color: #e9e9e9;
+}
+.goods-more{
+	display: none;
+}
+.tab-cut>div>h3{
+	margin-top: 16px;
+	line-height: 36px;
+}

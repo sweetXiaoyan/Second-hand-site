@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://E:/wamp/www/Second-hand-site/css/goods.css" line="42" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="65e7606a-7f1f-442e-b802-3ffd1a935079" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5197817">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="480">
+                  <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+                  <folding>
+                    <marker date="1494837998816" expanded="true" signature="985:1138" ph="select 个人信息表... 注册表" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="want.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/php/want.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+                  <folding>
+                    <marker date="1494467031573" expanded="true" signature="5202:5353" ph="select 个人信息表... 注册表" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="status.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/php/status.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/php/session.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="353">
+                  <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="selectClassify.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/php/selectClassify.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+                  <folding>
+                    <marker date="1494249392359" expanded="true" signature="931:1045" ph="SELECT `商品名称... 发布商品信息表" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="banner-and-footer.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/banner-and-footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="390">
+                  <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AjaxTool.js" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/js/AjaxTool.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="classifyProduct.js" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/js/classifyProduct.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+            <entry file="file://E:/wamp/www/Second-hand-site/js/common.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="186">
+                  <caret line="560" column="15" lean-forward="false" selection-start-line="560" selection-start-column="15" selection-end-line="560" selection-end-column="15" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="searchUI.php" pinned="false" current-in-tab="false">
+            <entry file="file://E:/wamp/www/Second-hand-site/searchUI.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+            <entry file="file://E:/wamp/www/Second-hand-site/css/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="615">
+                  <caret line="668" column="0" lean-forward="false" selection-start-line="668" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#6704#7014#0" expanded="false" />
+                    <element signature="e#7031#7120#0" expanded="false" />
+                    <element signature="e#7135#7262#0" expanded="false" />
+                    <element signature="e#9620#9713#0" expanded="false" />
+                    <element signature="e#9729#9756#0" expanded="false" />
+                    <element signature="e#9766#9854#0" expanded="false" />
+                    <element signature="e#9866#9939#0" expanded="false" />
+                    <element signature="e#9965#10062#0" expanded="false" />
+                    <element signature="e#10075#10284#0" expanded="false" />
+                    <element signature="e#10297#10506#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>西华二手街</find>
+      <find>php/status.php</find>
+      <find>nickn</find>
+      <find>nic</find>
+      <find>emailLogin</find>
+      <find>fabushangping.html</find>
+      <find>quit</find>
+      <find>contact</find>
+      <find>con</find>
+      <find>Goodsname</find>
+      <find>Informain</find>
+      <find>loginButton</find>
+      <find>trans</find>
+      <find>Goods</find>
+      <find>icon-chat</find>
+      <find>goods-chat</find>
+      <find>ajaxLogin</find>
+      <find>pub</find>
+      <find>.goods-ask &gt; .ask-submit &gt; .ask-btn</find>
+      <find>.buttons&gt;div</find>
+      <find>form #submit-publish</find>
+      <find>.container-title a</find>
+      <find>submit-publish</find>
+      <find>.footer</find>
+      <find>.class-container .class-main &gt; .product &gt;p.pro-intro</find>
+      <find>Second-hand-site</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="E:/wamp/www/Xihua-Second-Street-master/fabuqiugou.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/fabuqiugou.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/status.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/fabuqiugou.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/login.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/slider.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/fabushangping.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/fabushangping.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/want.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/want.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/datasTool.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/header.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/fabushangpingUI.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/reg.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/login-UI.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/session.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/tips.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/askWord.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/askSeclect.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/bike/tips.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/fabuqiugouUI.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/selectClassify.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/userphoto/chat.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/fabuqiugou.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/want.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/chat.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/connect.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/selectUserMsg.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/My-center.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/userCenter.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/classfiyProducts.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/classifyProduct.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/01-chat-client.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/02-chat-client.html" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/reg- UI.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/reg-yes-UI.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/goods.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/comTool.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/goods.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/goods.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/my-center.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/fubushangping.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/banner-and-footer.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/common.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/js/fabushangping.js" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/fabushangping.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/index.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/classfiy.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/footer.php" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/css/index.css" />
+        <option value="E:/wamp/www/Xihua-Second-Street-master/php/data.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-116" />
+    <option name="y" value="15" />
+    <option name="width" value="1932" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Second-hand-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Second-hand-site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Second-hand-site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Second-hand-site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="E:/wamp/www/Xihua-Second-Street-master" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="C:/dev/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\dev\nodejs\node.exe" />
+    <property name="SearchEverywhereHistoryKey" value="trans&#9;null&#9;null&#10;login&#9;FILE&#9;file://E:/wamp/www/Xihua-Second-Street-master/second-hand/js/login.js" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\Xihua-Second-Street-master" />
+      <recent name="E:\wamp\www\Xihua-Second-Street-master\js" />
+      <recent name="E:\wamp\www\Xihua-Second-Street-master\bike" />
+      <recent name="E:\wamp\www\Xihua-Second-Street-master\php" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp\www\Xihua-Second-Street-master\php" />
+      <recent name="E:\wamp\www\Xihua-Second-Street-master" />
+      <recent name="E:\wamp\www\Xihua-Second-Street-master\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="65e7606a-7f1f-442e-b802-3ffd1a935079" name="Default" comment="" />
+      <created>1493286978709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493286978709</updated>
+      <workItem from="1493286981115" duration="2089000" />
+      <workItem from="1493290882885" duration="5872000" />
+      <workItem from="1493298343995" duration="3044000" />
+      <workItem from="1493352769103" duration="2515000" />
+      <workItem from="1493373013158" duration="13211000" />
+      <workItem from="1493390584157" duration="990000" />
+      <workItem from="1493424432136" duration="26844000" />
+      <workItem from="1493461027980" duration="10690000" />
+      <workItem from="1493508634084" duration="4060000" />
+      <workItem from="1493557220888" duration="9506000" />
+      <workItem from="1493598875551" duration="31087000" />
+      <workItem from="1493686560219" duration="57000" />
+      <workItem from="1493717795444" duration="152000" />
+      <workItem from="1493729293731" duration="1718000" />
+      <workItem from="1493734459218" duration="1025000" />
+      <workItem from="1493870748730" duration="17698000" />
+      <workItem from="1493905564240" duration="605000" />
+      <workItem from="1494128741433" duration="19332000" />
+      <workItem from="1494214625204" duration="23076000" />
+      <workItem from="1494465895919" duration="1720000" />
+      <workItem from="1494477467457" duration="1041000" />
+      <workItem from="1494481754450" duration="4801000" />
+      <workItem from="1494492799865" duration="603000" />
+      <workItem from="1494505451278" duration="7565000" />
+      <workItem from="1494547437020" duration="768000" />
+      <workItem from="1494672412034" duration="4000" />
+      <workItem from="1494747617178" duration="158000" />
+      <workItem from="1494754620203" duration="2134000" />
+      <workItem from="1494829893140" duration="10633000" />
+      <workItem from="1494936899637" duration="377000" />
+      <workItem from="1494937333017" duration="1048000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="204423000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-116" y="15" width="1932" height="1050" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23615465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="12" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/wamp/www/Second-hand-site/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/classfiyProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/selectClassify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/classifyProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="90" column="70" lean-forward="false" selection-start-line="90" selection-start-column="70" selection-end-line="90" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/classfiy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/my-center.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/userCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/comTool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="211" column="33" lean-forward="false" selection-start-line="211" selection-start-column="29" selection-end-line="211" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28500">
+          <caret line="687" column="38" lean-forward="false" selection-start-line="687" selection-start-column="34" selection-end-line="687" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/classfiyProducts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/userCenter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Xihua-Second-Street-master/chat.html" />
+    <entry file="file://E:/wamp/www/Second-hand-site/02-chat-client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="152" column="26" lean-forward="false" selection-start-line="152" selection-start-column="26" selection-end-line="152" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/01-chat-client.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/reg- UI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/reg-yes-UI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8160">
+          <caret line="272" column="42" lean-forward="false" selection-start-line="272" selection-start-column="42" selection-end-line="272" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/goods.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="261" column="21" lean-forward="true" selection-start-line="261" selection-start-column="21" selection-end-line="261" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/my-center.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/fubushangping.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="190" column="36" lean-forward="false" selection-start-line="190" selection-start-column="36" selection-end-line="190" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="48" column="7" lean-forward="true" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/login-UI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/chatServer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/comTool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/fabushangpingUI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5040">
+          <caret line="189" column="14" lean-forward="true" selection-start-line="189" selection-start-column="14" selection-end-line="189" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/77.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/16.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/15.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/14.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/13.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/12.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/goodsimage/11.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/fabushangping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="23" lean-forward="false" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/fabushangping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="104" column="9" lean-forward="true" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/classfiy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="668" column="0" lean-forward="false" selection-start-line="668" selection-start-column="0" selection-end-line="668" selection-end-column="0" />
+          <folding>
+            <element signature="e#6704#7014#0" expanded="false" />
+            <element signature="e#7031#7120#0" expanded="false" />
+            <element signature="e#7135#7262#0" expanded="false" />
+            <element signature="e#9620#9713#0" expanded="false" />
+            <element signature="e#9729#9756#0" expanded="false" />
+            <element signature="e#9766#9854#0" expanded="false" />
+            <element signature="e#9866#9939#0" expanded="false" />
+            <element signature="e#9965#10062#0" expanded="false" />
+            <element signature="e#10075#10284#0" expanded="false" />
+            <element signature="e#10297#10506#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/searchUI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <marker date="1494837998816" expanded="true" signature="985:1138" ph="select 个人信息表... 注册表" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/want.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+          <folding>
+            <marker date="1494467031573" expanded="true" signature="5202:5353" ph="select 个人信息表... 注册表" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/php/selectClassify.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <marker date="1494249392359" expanded="true" signature="931:1045" ph="SELECT `商品名称... 发布商品信息表" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/banner-and-footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/AjaxTool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/classifyProduct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/wamp/www/Second-hand-site/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="560" column="15" lean-forward="false" selection-start-line="560" selection-start-column="15" selection-end-line="560" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
