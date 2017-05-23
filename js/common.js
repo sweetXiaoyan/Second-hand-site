@@ -561,7 +561,7 @@ function ajaxPub(){
 			    	else{  // 判断已经登录，跳转去发布商品
                         // emailLogin = data.emailLogin;
                         // console.log(emailLogin);
-                        window.location='..//fabushangpingUI.php';
+                        window.location='../Second-hand-site/fabuqiugouUI.php';
                      /*   window.open('../Second-hand-site/fabushangpingUI.php');*/
 			    	}
 

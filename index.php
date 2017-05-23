@@ -81,6 +81,9 @@ endforeach;
 <script>
     $(function () {
         comTool.navLinks('php/selectClassify.php','classfiyProducts.php');
+        $(".search-submit").click(function () {
+            window.open("searchUI.php");
+        })
     })
 </script>
 </html>

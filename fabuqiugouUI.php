@@ -199,7 +199,7 @@
 				<div class="footer-top2"></div>
 			</div>
 			<a href="#">产品意见反馈</a>
-			<p> ©2014-2015 和平科技 版权所有 鄂ICP备14003265号-2 </p>
+			<p> </p>
 		</div><!-- footer结束 -->
 	</div><!-- main结束 -->
 	<script src="js/fabuqiugou.js"></script>
